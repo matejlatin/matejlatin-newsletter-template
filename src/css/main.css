@@ -1,0 +1,395 @@
+/* -------------------------------------
+    CONFIGURE YOUR VARIABLES
+------------------------------------- */
+/* -------------------------------------
+    GLOBAL RESETS
+------------------------------------- */
+table,
+td,
+div,
+a {
+  box-sizing: border-box; }
+
+img {
+  -ms-interpolation-mode: bicubic;
+  max-width: 100%; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  height: 100% !important;
+  line-height: 1.6em;
+  margin: 0;
+  padding: 0;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  width: 100% !important; }
+
+table {
+  border-collapse: separate !important;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+  width: 100%; }
+  table td {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 14px;
+    vertical-align: top; }
+
+.about {
+  text-align: left;
+  text-indent: 0;
+  font-size: 14px;
+  line-height: 18px; }
+
+.ExternalClass {
+  width: 100%; }
+
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+  line-height: 100%; }
+
+/* -------------------------------------
+    BODY & CONTAINER
+------------------------------------- */
+body {
+  background-color: #ffffff; }
+
+.body {
+  background-color: #ffffff;
+  width: 100%; }
+
+/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+.container {
+  display: block;
+  Margin: 0 auto !important;
+  /* makes it centered */
+  max-width: 580px;
+  padding: 10px;
+  width: auto !important;
+  width: 580px; }
+
+/* This should also be a block element, so that it will fill 100% of the .container */
+.content {
+  display: block;
+  margin: 0 auto;
+  max-width: 580px;
+  padding: 10px; }
+
+/* -------------------------------------
+    HEADER, FOOTER, MAIN
+------------------------------------- */
+.main {
+  background: #ffffff;
+  width: 100%; }
+
+.wrapper {
+  padding: 30px; }
+
+.content-block {
+  padding: 0 0 30px; }
+
+.header {
+  margin-bottom: 30px;
+  margin-top: 20px;
+  width: 100%;
+  font-style: italic;
+  font-size: 14px;
+  margin-bottom: 48px;
+  text-indent: 0; }
+
+.footer {
+  clear: both;
+  width: 100%;
+  padding: 0 30px;
+  text-indent: 0; }
+  .footer * {
+    color: #999999;
+    font-size: 12px;
+    line-height: 14px; }
+  .footer td {
+    padding: 30px 0; }
+
+/* -------------------------------------
+    TYPOGRAPHY
+------------------------------------- */
+h1,
+h2,
+h3,
+h4 {
+  color: #111111 !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
+  line-height: 1.4em;
+  margin: 0;
+  margin-bottom: 30px; }
+
+h1 {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: bold;
+  margin-bottom: 0;
+  letter-spacing: -3px;
+  text-indent: 0;
+  text-align: left; }
+
+h2 {
+  font-size: 24px;
+  text-indent: 0;
+  letter-spacing: -0.5px;
+  margin-bottom: 10px;
+  margin-top: 30px; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 14px;
+  font-weight: 500; }
+
+.ps {
+  font-style: italic;
+  text-indent: 0;
+  font-size: 16px;
+  margin-bottom: 24px; }
+
+.edition {
+  font-size: 26px;
+  line-height: 32px; }
+
+p,
+ul,
+ol {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 0px;
+  line-height: 24px; }
+  p li,
+  ul li,
+  ol li {
+    list-style-position: inside;
+    margin-left: 5px; }
+
+a {
+  color: #348eda;
+  text-decoration: underline; }
+
+.body {
+  text-indent: 24px; }
+
+h2 + p {
+  text-indent: 0; }
+
+.signature {
+  text-indent: 0;
+  margin-top: 24px; }
+
+code,
+pre,
+.word-wrap {
+  word-break: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto; }
+
+/* -------------------------------------
+    BUTTONS
+------------------------------------- */
+.btn {
+  width: 100%; }
+  .btn > tr > td {
+    padding-bottom: 15px; }
+  .btn table {
+    width: auto; }
+  .btn table td {
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-align: center; }
+  .btn a {
+    background-color: #ffffff;
+    border: solid 1px #348eda;
+    border-radius: 5px;
+    color: #348eda;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    padding: 12px 25px;
+    text-decoration: none;
+    text-transform: capitalize; }
+
+.btn-primary table td {
+  background-color: #348eda; }
+
+.btn-primary a {
+  background-color: #348eda;
+  border-color: #348eda;
+  color: #ffffff; }
+
+.btn-secondary table td {
+  background-color: transparent; }
+
+.btn-secondary a {
+  background-color: transparent;
+  border-color: #348eda;
+  color: #348eda; }
+
+/* -------------------------------------
+  NOTICES
+------------------------------------- */
+.notice {
+  border-collapse: separate; }
+  .notice-spacer {
+    padding: 10px 0; }
+  .notice td {
+    line-height: 1.35;
+    font-size: 14px;
+    font-weight: 400; }
+  .notice-info td {
+    background: #f0f6fb;
+    border: 1px solid #b7d3ed;
+    border-radius: 6px;
+    color: #2c6eac;
+    padding: 8px 12px; }
+  .notice-success td {
+    background: #e1f2bd;
+    border: 1px solid #c6e682;
+    border-radius: 6px;
+    color: #61821a;
+    padding: 8px 12px; }
+  .notice-warning td {
+    background: #f7eed0;
+    border: 1px solid #edd993;
+    border-radius: 6px;
+    color: #9a7d1a;
+    padding: 8px 12px; }
+  .notice-danger td {
+    background: #f5d5d5;
+    border: 1px solid #e89b9b;
+    border-radius: 6px;
+    color: #952222;
+    padding: 8px 12px; }
+  .notice-lg td {
+    font-size: 16.8px;
+    line-height: 1.35; }
+
+/* -------------------------------------
+  DIVIDERS
+------------------------------------- */
+.divider {
+  border-collapse: separate; }
+  .divider-spacer {
+    padding: 20px 0; }
+  .divider td {
+    border-top: 1px solid #ccc;
+    line-height: 0;
+    font-size: 0;
+    height: 1px;
+    margin: 0;
+    padding: 0; }
+
+/* -------------------------------------
+    OTHER STYLES THAT MIGHT BE USEFUL
+------------------------------------- */
+.last {
+  margin-bottom: 0; }
+
+.first {
+  margin-top: 0;
+  text-indent: 0; }
+
+.align-center {
+  text-align: center; }
+
+.align-right {
+  text-align: right; }
+
+.align-left {
+  text-align: left; }
+
+.clear {
+  clear: both; }
+
+.mt0 {
+  margin-top: 0; }
+
+.mb0 {
+  margin-bottom: 0; }
+
+.read-time {
+  text-transform: uppercase;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  margin-top: 12px;
+  margin-bottom: 24px;
+  text-indent: 0; }
+
+/**
+* @tab Page
+* @section indented paragraph
+* @tip Sets the indentation to the paragraph.
+* @style indented paragraph
+*/
+.indented {
+  /*@editable*/
+  color: #202020 !important;
+  display: block;
+  /*@editable*/
+  font-family: Arial;
+  /*@editable*/
+  font-size: 34px;
+  /*@editable*/
+  font-weight: bold;
+  /*@editable*/
+  line-height: 100%;
+  /*@editable*/
+  text-align: left; }
+
+/* -------------------------------------
+    RESPONSIVE AND MOBILE FRIENDLY STYLES
+------------------------------------- */
+table[class=body] {
+  text-indent: 16px !important; }
+  @media only screen and (max-width: 620px) {
+    table[class=body] p {
+      font-size: 16px !important;
+      line-height: 21px !important; }
+    table[class=body] h1,
+    table[class=body] h2,
+    table[class=body] h3,
+    table[class=body] h4 {
+      font-weight: bold !important; }
+    table[class=body] h1 {
+      font-size: 36px !important;
+      letter-spacing: -1px !important;
+      line-height: 36px !important; }
+    table[class=body] h2 {
+      font-size: 24px !important;
+      line-height: 24px !important;
+      letter-spacing: -0.5px;
+      margin-bottom: 5px !important; }
+    table[class=body] h3 {
+      font-size: 16px !important; }
+    table[class=body] .content,
+    table[class=body] .wrapper {
+      padding: 10px !important; }
+    table[class=body] .container {
+      padding: 0 !important;
+      width: 100% !important; }
+    table[class=body] .btn table,
+    table[class=body] .btn a {
+      width: 100% !important; }
+    table[class=body] .read-time {
+      font-size: 12px !important; }
+    table[class=body] .footer {
+      padding: 0 15px !important; } }

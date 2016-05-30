@@ -1,0 +1,96 @@
+/* -------------------------------------
+    TYPOGRAPHY
+------------------------------------- */
+
+h1,
+h2,
+h3,
+h4 {
+  color: $font-color !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
+  line-height: 1.4em;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: bold;
+  margin-bottom: 0;
+  letter-spacing: -3px;
+  text-indent: 0;
+  text-align: left;
+}
+h2 {
+  font-size: 24px;
+  text-indent: 0;
+  letter-spacing: -0.5px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 14px;
+  font-weight:500;
+}
+
+.ps {
+  font-style: italic;
+  text-indent: 0;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.edition {
+  font-size: 26px;
+  line-height: 32px;
+}
+
+p,
+ul,
+ol {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 0px;
+  line-height: 24px;
+
+  li {
+    list-style-position: inside;
+    margin-left: 5px;
+  }
+}
+
+a {
+  color: $primary-color;
+  text-decoration: underline;
+}
+
+.body {
+  text-indent: 24px;
+}
+
+h2 + p {
+  text-indent: 0;
+}
+
+.signature {
+  text-indent: 0;
+  margin-top: 24px;
+}
+
+// Break long strings to prevent x-scrolling
+code,
+pre,
+.word-wrap {
+  word-break: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
