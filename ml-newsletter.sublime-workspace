@@ -152,13 +152,10 @@
 			}
 		},
 		{
-			"contents": "/* -------------------------------------\n    OTHER STYLES THAT MIGHT BE USEFUL\n------------------------------------- */\n\n.last {\n  margin-bottom: 0;\n}\n\n.first {\n  margin-top: 0;\n  text-indent: 0;\n}\n\n.align-center {\n  text-align: center;\n}\n\n.align-right {\n  text-align: right;\n}\n\n.align-left {\n  text-align: left;\n}\n\n.clear {\n  clear: both;\n}\n\n.mt0 {\n  margin-top: 0;\n}\n\n.mb0 {\n  margin-bottom: 0;\n}\n\n.read-time {\n  text-transform: uppercase;\n  font-family: \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif;\n  font-size: 14px;\n  letter-spacing: 1px;\n  font-weight: 300;\n  margin-top: 12px;\n  margin-bottom: 24px;\n  text-indent: 0;\n}\n\n// Preheader text is displayed in certain clients as a preview but not shown when the user opens the email\n// .preheader {\n//   color: transparent;\n//   display: none;\n//   height: 0;\n//   max-height: 0;\n//   max-width: 0;\n//   opacity: 0;\n//   overflow: hidden;\n//   mso-hide: all;\n//   visibility: hidden;\n//   width: 0;\n// }",
 			"file": "src/css/scss/_other.scss",
-			"file_size": 975,
-			"file_write_time": 131079751490000000,
 			"settings":
 			{
-				"buffer_size": 975,
+				"buffer_size": 1353,
 				"line_ending": "Unix"
 			}
 		},
@@ -166,7 +163,7 @@
 			"file": "src/emails/newsletter.hbs",
 			"settings":
 			{
-				"buffer_size": 4800,
+				"buffer_size": 5030,
 				"line_ending": "Unix"
 			}
 		},
@@ -174,7 +171,7 @@
 			"file": "src/css/scss/_type.scss",
 			"settings":
 			{
-				"buffer_size": 1267,
+				"buffer_size": 1384,
 				"line_ending": "Unix"
 			}
 		},
@@ -182,7 +179,7 @@
 			"file": "src/css/scss/_responsive.scss",
 			"settings":
 			{
-				"buffer_size": 896,
+				"buffer_size": 1087,
 				"line_ending": "Unix"
 			}
 		},
@@ -214,7 +211,7 @@
 			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 99,
+				"buffer_size": 15,
 				"line_ending": "Unix"
 			}
 		}
@@ -340,7 +337,7 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/matejlatin/Personal/ml-newsletter"
+		"/Users/matejlatin/Personal/matejlatin-newsletter-template"
 	],
 	"file_history":
 	[
@@ -586,15 +583,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 975,
+						"buffer_size": 1353,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								583,
-								583
+								236,
+								236
 							]
 						],
 						"settings":
@@ -616,15 +613,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4800,
+						"buffer_size": 5030,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								670,
-								670
+								0,
+								0
 							]
 						],
 						"settings":
@@ -646,15 +643,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1267,
+						"buffer_size": 1384,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								351,
-								351
+								0,
+								0
 							]
 						],
 						"settings":
@@ -676,15 +673,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 896,
+						"buffer_size": 1087,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								478,
-								478
+								0,
+								0
 							]
 						],
 						"settings":
@@ -794,7 +791,7 @@
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 99,
+						"buffer_size": 15,
 						"regions":
 						{
 						},
